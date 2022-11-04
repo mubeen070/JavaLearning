@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class flight {
+    Scanner inp = new Scanner(System.in);
     private String flightNo;
     private String flightSource;
     private String flightDestination;
@@ -21,7 +22,7 @@ public class flight {
 
     public void bookFlight(int totalSeats) {
 
-        Scanner inp = new Scanner(System.in);
+       
         int seatNo;
         int booked_seats = 0;
 

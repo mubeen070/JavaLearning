@@ -14,7 +14,7 @@ public class TestBuilding {
         office.area = inp.nextDouble();
         office.occupants = inp.nextInt();
         office.areaperperson();
-        inp.close();
+        inp.close(); 
     }
     
 }
